@@ -1,0 +1,50 @@
+@use './variables.scss' as *;
+
+.button {
+    height: 58px;
+    border: none;
+    border-radius: 29px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: $light;
+
+    &_primary {
+        width: 193px;
+        background: $blue_dark;
+    }
+
+    &_primary span {
+        color: $blue_hover;
+    }
+ 
+    &_primary:hover {
+        cursor: pointer;
+        background: $blue_light;
+    }
+
+    &_secondary {
+        width: 139px;
+        margin-left: 16px;
+        background: $violet_dark;
+    }
+
+    &_secondary:hover {
+        cursor: pointer;
+        background: $violet_light;
+    }
+
+    &_tertiary {
+        width: 193px;
+        background: $violet_dark;
+    }
+
+    &_tertiary span {
+        color: $violet_hover;
+    }
+
+    &_tertiary:hover {
+        cursor: pointer;
+        background: $violet_light;
+    }
+}

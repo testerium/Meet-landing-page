@@ -1,0 +1,17 @@
+@use './variables.scss' as *;
+@use './buttons.scss' as *;
+@use './container_bottom.scss' as *;
+@use './container_middle.scss' as *;
+@use './container_top.scss' as *;
+@use './divider.scss' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+}
