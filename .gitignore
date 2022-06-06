@@ -15,5 +15,6 @@
 .DS_Store
 .prettierignore
 
-css
+/css
 !.gitkeep
+/node_modules
